@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: admin
 webhook_url: https://api.stackbit.com/project/5e8b42d98a53180014e5b013/webhook/forestry
 sections:
+- type: jekyll-pages
+  label: '1'
+  create: all
+  match: "**/*"
 - type: document
   path: _config.yml
   label: Config
